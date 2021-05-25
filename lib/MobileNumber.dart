@@ -103,7 +103,6 @@ class _MobileNumberState extends State<MobileNumber> {
                 GestureDetector(
                   onTap: () {
                     if (formKey.currentState.validate())
-                      print(number);
                       Navigator.push(
                           context,
                           MaterialPageRoute(

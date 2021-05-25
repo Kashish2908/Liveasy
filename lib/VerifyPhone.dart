@@ -140,7 +140,13 @@ class _VerifyPhoneState extends State<VerifyPhone> {
 
               GestureDetector(
                 onTap: (){
-                  _verifyPhoneNo();
+
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (BuildContext context) =>
+                              VerifyPhone(widget.mobile)
+                              ));
                 },
                 child: Text(
                   " Request Again",
