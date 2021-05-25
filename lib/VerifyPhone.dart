@@ -137,9 +137,15 @@ class _VerifyPhoneState extends State<VerifyPhone> {
                 "Didn't receive the code?",
                 style: TextStyle(fontSize: 15, color: Colors.black54),
               ),
-              Text(
-                " Request Again",
-                style: TextStyle(fontSize: 15, color: Colors.black87),
+
+              GestureDetector(
+                onTap: (){
+                  _verifyPhoneNo();
+                },
+                child: Text(
+                  " Request Again",
+                  style: TextStyle(fontSize: 15, color: Colors.black87),
+                ),
               ),
             ],
           ),
