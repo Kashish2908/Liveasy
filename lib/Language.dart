@@ -46,7 +46,7 @@ class _SelectLanguageState extends State<SelectLanguage> {
                         "Please select your Language",
                         textAlign: TextAlign.center,
                         style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 25.0),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 24.0),
                       ),
                       SizedBox(
                         height: 10.0,
